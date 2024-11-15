@@ -25,6 +25,7 @@ project(lio_ekf)
 SET(CMAKE_BUILD_TYPE "Release")
 SET(CMAKE_EXPORT_COMPILE_COMMANDS TRUE)
 find_package(Eigen3 REQUIRED)
+find_package(kiss_icp REQUIRED)
 
 find_package(
   catkin REQUIRED
